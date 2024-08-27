@@ -1,0 +1,23 @@
+{
+    "name": "ns/stripe-bundle",
+    "description": "Simple symfony integration of Stripe PHP library",
+    "keywords": ["template"],
+    "homepage": "https://github.com/NobletSolutions/StripeBundle",
+    "authors": [
+        {
+            "name": "Mark Woynarski",
+            "email": "mark.woynarski@nobletdesign.com"
+        },
+	{
+	    "name": "Nathanael David Noblet",
+	    "email": "nathanael@noblet.ca"
+	}
+    ],
+    "require": {
+        "stripe/stripe-php": "^3.15"
+    },
+    "autoload": {
+        "psr-4": { "NS\\StripeBundle\\": "" }
+    }
+}
+

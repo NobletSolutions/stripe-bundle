@@ -1,0 +1,4 @@
+services:
+    ns.stripe:
+      class: NS\StripeBundle\Service\StripeProcessor
+      arguments: [ %stripe_secret_key%, %stripe_publishable_key% ]
